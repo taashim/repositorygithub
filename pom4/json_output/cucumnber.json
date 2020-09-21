@@ -1,0 +1,150 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9712000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to naviagte onto the login page",
+            "match": {
+              "location": "stepdefinition.stepsdef.i_am_able_to_naviagte_onto_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T04:20:45.418Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27050000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.stepsdef.beforetest()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Login with Negative data",
+        "description": "",
+        "id": "login-features;login-with-negative-data",
+        "after": [
+          {
+            "result": {
+              "duration": 18433000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.stepsdef.aftertest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2357000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I Enter the username as \"sunil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sunil\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.stepsdef.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 555000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I Enter the password as \"sunil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sunil\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinition.stepsdef.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7157000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on the login button",
+            "match": {
+              "location": "stepdefinition.stepsdef.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 767000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should see a Error meassage as \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid credentials\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepdefinition.stepsdef.i_should_see_a_error_meassage_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "Login Features",
+    "description": "This feature includes scenario that would validate the following features.\n1. Login as Admin\n2. Login as Linda.anderson\n3. Login with Negative data",
+    "id": "login-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Newlogin/newlogin.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
